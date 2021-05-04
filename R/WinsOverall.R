@@ -8,7 +8,7 @@
 #'
 #' @examples  WinsOverall(db)
 #'
-#' @export WinsOverall
+#' @export
 
 library(stringr)
 
