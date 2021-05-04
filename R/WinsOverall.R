@@ -2,24 +2,17 @@
 #'
 #' @description ATP winning matches record
 #'
-#' @param
+#' @param db Database to read
 #'
 #' @return res
 #'
-#' @examples  WinsOverall()
+#' @examples  WinsOverall(db)
 #'
 #' @export WinsOverall
 
-
-# install.packages('data.table')
-# install.packages('dplyr')
-# install.packages('plyr')
-# install.packages('tibble')
-# install.packages('curl')
-
 library(stringr)
 
-WinsOverall <- function() {
+WinsOverall <- function(db) {
 
   ## drop walkover matches (not countable)
   require(stringr)
