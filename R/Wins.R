@@ -10,6 +10,13 @@
 #'
 #' @export WinsOverall
 
+
+# install.packages('data.table')
+# install.packages('dplyr')
+# install.packages('plyr')
+# install.packages('tibble')
+# install.packages('curl')
+
 library(stringr)
 
 WinsOverall <- function() {
