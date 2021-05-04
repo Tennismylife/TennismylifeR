@@ -1,2 +1,1 @@
-export(ParallelReader)
-export(WinsOverall)
+export("ParallelReader", "WinsOverall")
