@@ -9,5 +9,5 @@ Description: A complete and live updated Database with ATP tournaments matches
 License: What license is it under?
 Encoding: UTF-8
 LazyData: false
-Imports: data.table, dplyr, plyr, tibble, curl
+Depends: data.table, dplyr, plyr, tibble, curl
 Suggests: tableHTML, ggplot2, stringr, tableHTML
