@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: false
 Imports: data.table, dplyr, plyr, tibble, curl
 Suggests: tableHTML, ggplot2, stringr, tableHTML
+Built: R 4.0.0; ; 2021-05-04 00:56:16 UTC; windows
