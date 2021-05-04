@@ -15,7 +15,6 @@ library(stringr)
 WinsOverall <- function(db) {
 
   ## drop walkover matches (not countable)
-  require(stringr)
   db <- db[!db$score=="W/O" & !db$score=="DEF" & !str_detect(db$score, "WEA") & !str_detect(db$score, "ABN")]
 
   ## count occurrences of won matches
