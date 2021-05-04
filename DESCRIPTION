@@ -1,0 +1,13 @@
+Package: TennismylifeR
+Type: Package
+Title: A tool to find all tennis records
+Version: 0.1.0
+Author: Andrea Li Veli
+Maintainer: Andrea Li Veli <infotennismylife@gmail.com>
+Description: A complete and live updated Database with ATP tournaments matches 
+              and the tools to find the records
+License: What license is it under?
+Encoding: UTF-8
+LazyData: false
+Imports: data.table, dplyr, plyr, tibble, curl
+Suggests: tableHTML, ggplot2, stringr, tableHTML
